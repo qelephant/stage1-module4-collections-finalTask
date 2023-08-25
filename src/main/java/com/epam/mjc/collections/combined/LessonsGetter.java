@@ -9,6 +9,6 @@ public class LessonsGetter {
         for (List<String> lessons : timetable.values()) {
             subjects.addAll(lessons);
         }
-        return allLessons;
+        return subjects;
     }
 }
